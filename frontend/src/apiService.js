@@ -1,7 +1,7 @@
 // src/apiService.js
 
 // Change this if you deploy later
-const API_URL = 'http://localhost:5000/api'; 
+const API_URL = 'https://civveo-backend.onrender.com/api'; 
 
 export const joinWaitlist = async (email, role) => {
   try {
